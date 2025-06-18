@@ -1,0 +1,519 @@
+
+.hidden {
+   display: none;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+ #mobile-outline {
+    outline: 20px solid #008cff;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ }
+ 
+ body {
+    background-color: rgb(172, 233, 255);
+    font-family: helvetica
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cr-red {
+    color: #0084ff;
+ }
+ 
+ /* NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV */
+ 
+ #main-nav button {
+    width: 20px;
+    height: 20px;
+    background: url(../images/menu.svg) no-repeat center;
+    margin-top: 15px;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+    border: 0;
+    cursor: pointer;
+ }
+ 
+ #main-nav button.expanded {
+    transform: rotate(90deg);
+ }
+ 
+ #burger-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    
+ }
+
+ #burger-con ul li a  {
+    font-size: 20px;
+    color: #00c3ff;
+ }
+   
+ #burger-con.slide-toggle {
+    display: block;
+ }
+ 
+ #main-nav ul li a:hover {
+    color: #00aeff;
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #007bff;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ 
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 280px;
+    
+ }
+ 
+ #book-now-header {
+    display: none;
+ }
+ 
+ .book-now {
+    background-color: #008cff;
+    color: #fff;
+    font-size: 16px;
+    
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+ }
+ 
+ 
+ #hero img {
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    justify-self: center;
+ }
+ 
+ #hero-main {
+    height: 220px;
+    object-fit: cover;
+ }
+ 
+ #hero .grid-con {
+    grid-column: 2/3;
+    grid-row:1/1;
+    margin: 0;
+ }
+ 
+ .book-now {
+    background-color: #00c3ff;
+    color: #ffffff;
+    width: 140px;
+    font-size: 24px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+ }
+ 
+ .book-now:hover {
+    box-shadow: inset 0px -120px 0px rgb(0, 162, 207);
+ }
+ 
+ 
+ 
+
+ /* Tablet Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet  Tablet   */
+ 
+ @media screen and (min-width: 768px) {
+ 
+    /* Main Nav */
+ 
+    #sticky-nav-con {
+       position: sticky;
+       top: 0px;
+       background-color: #fff;
+       border-bottom: solid 1px #001aff;
+       z-index: 1;
+    }
+ 
+    #main-nav {
+       margin-top: 4%;
+       margin-bottom: 4%;
+       border-left: 2px solid #00b7ff;
+       padding-left: 30%;
+    }
+ 
+    #main-nav ul li a {
+       display: inline;
+    }
+ 
+    #button {
+       display: none;
+    }
+ 
+    #burger-con {
+       display: block;
+       font-size: 12px;
+    }
+ 
+    #burger-con ul li, #burger-con ul li:first-child {
+       border: none;
+       display: inline;
+    }
+ 
+    #burger-con ul li {
+       margin-right: 10px;
+    }
+ 
+    #burger-con ul li:last-child {
+       margin-right: 0px;
+    }
+ 
+    #logo {
+       margin-top: 32px;
+       order: -1; 
+    }
+ 
+    #book-now-header {
+       display: flex;
+       margin-right: -16px;
+    }
+ 
+    #pic1 {
+      padding: 20px;
+   }
+
+   #pic2 {
+      padding: 20px;
+   }
+
+
+   }
+
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+
+#iconic  {
+display: flex;
+justify-content: center;
+}
+
+#pic1 {
+   padding: 20px;
+   background-color:#00c3ff ;
+   font-size: 20px;
+   color: white;
+   border-radius: 4px;
+}
+
+#pic2 {
+   padding: 20px;
+   background-color:#00c3ff ;
+   font-size: 20px;
+   color: white;
+   border-radius: 4px;
+}
+
+#grape-lab {
+   margin-bottom: 70px;
+   color: rgb(149, 0, 149);
+}
+
+#grape-lab p {
+   text-align: center;
+}
+
+.promos {
+   margin-bottom: 70px;
+   margin-top: 40px;
+}
+
+#label1 {
+   background-color: #00c3ff ;
+   padding: 20px;
+   color: white;
+   border-radius: 4px;
+}
+
+#label2 {
+   background-color: #00c3ff ;
+   padding: 20px;
+   color: white;
+   border-radius: 4px;
+}
+
+/* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+
+#home-link a {
+   text-decoration: none;
+   color:rgb(0, 160, 252);
+   font-size: 50px;
+}
+
+body {
+   background-color: rgb(172, 233, 255);
+   font-family: helvetica;
+}
+
+#about p {
+   justify-content: center;
+   display: flex;
+   color: white;
+}
+
+#about div {
+   background-color: #00c3ff;
+   padding-left: 30px;
+   padding-top: 9px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   border-radius: 10px;
+   margin-top: 200px;
+}
+
+#about div h2 {
+   color: white;
+   font-size: 40px;
+   justify-content: center;
+   display: flex;
+}
+
+#about div p {
+   font-size: 30px;
+   justify-content: center;
+   display: flex;
+}
+
+#about-nav nav a {
+   display: flex;
+   justify-content: center;
+}
+
+/* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+
+#home-link a {
+   text-decoration: none;
+   color:rgb(0, 160, 252);
+   font-size: 50px;
+}
+
+#home-link a:hover {
+   text-decoration: none;
+   color:rgb(0, 117, 167);
+   font-size: 50px;
+}
+
+form {
+   text-align: left;
+}
+
+button {
+   background-color: #00c3ff;
+   color: white;
+   border: none;
+   cursor: pointer;
+   margin-top: 1rem;
+}
+
+button:hover {
+   background-color: #154625;
+}
+
+.socials a {
+   text-decoration: none;
+   color:rgb(0, 160, 252);
+   font-size: 30px;
+}
+   
+.socials a:hover {
+   text-decoration: none;
+   color:rgb(1, 15, 3);
+}
+
+label {
+   display: block;
+   margin-top: 0.5rem;
+   color: #00b3ea;
+}  
+
+label h3 {
+   color: black;
+}
+
+input {
+   border-radius: 5px;
+}
+
+textarea {
+   border-radius: 5px;
+}
+
+form {
+   max-width: 300px;
+   margin: 0 auto;
+}
+
+#order div h3 {
+   display: flex;
+   justify-content: center;
+}
+
+#order {
+   display: flex;
+   justify-content: center;
+}
+
+#inquiries  {
+   display: flex;
+   justify-content: center;
+}
+
+#inquiries div h3 {
+   display: flex;
+   justify-content: center;
+}
+
+
+/* FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS FLAVORS */
+
+#icons div {
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   width: 200px;
+   flex-direction: column;
+   background-color: #00c3ff;
+   padding: 10px;
+   border-radius: 26px;
+   font-size: 13px;
+} 
+
+#icons  {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+   margin-top: 50px;
+   gap: 20px;
+} 
+
+#icons2 div {
+   display: flex;
+   justify-content: center; 
+   align-items: center;     
+   background-color: #00c3ff;
+   width: 200px;
+   flex-direction: column;
+   padding: 10px;
+   margin-top: 20px;
+   border-radius: 26px;
+   font-size: 13px;
+} 
+
+#icons2  {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+   gap: 20px;
+} 
+
+#grape object {
+   height: 204px;
+}
+
+#grape svg {
+   height: 208px;
+}
+
+#grapefruit object {
+   height: 204px;
+}
+
+#icons #icons2 div h3  {
+   font-family: helvetica;
+   margin-top: 7px;
+}
+
+#lemon object, #lime object, #orange object  {
+   margin-bottom: 50px;
+}
+
+#icons2  object {
+  margin-bottom: 30px;
+}
+
+#lemon:hover #lemon-slices path {
+   fill: rgb(172, 175, 0)
+}
+
+#lime:hover #lime-slices path {
+   fill: rgb(42, 154, 34)
+}
+
+#grape:hover #g-Layer_1 .g2 {
+   fill: rgb(202, 239, 79) 
+}
+
+#orange:hover #orange-slices path {
+   animation: spin 4s linear infinite;
+   transform-origin: center;
+   fill: rgb(243, 163, 59)
+}
+
+@keyframes spin {
+   to { transform: rotate(360deg);  }
+}
+
+#grapefruit svg {
+   transition: transform 0.5s ease;
+   transform-origin: center;
+}
+
+#grapefruit:hover svg {
+   transform: scaleX(1.15); 
+}
+
+#coco svg {
+   transition: transform 0.5s ease;
+   transform-origin: center;
+}
+
+#coco:hover svg {
+   transform: scaleY(1.15); 
+   
+}
+
+
+
