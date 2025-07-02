@@ -59,9 +59,16 @@ img {
     
  }
 
+ #sticky-nav-con {
+   
+   width: 100vw; 
+   margin-left: calc(-50vw + 50%);
+ }
+
  #burger-con ul li a  {
-    font-size: 20px;
+    font-size: 27px;
     color: #00c3ff;
+    margin-right: 0px;
  }
    
  #burger-con.slide-toggle {
@@ -82,7 +89,10 @@ img {
     display: block;
     padding: 10px 0 10px 0;
     text-align: center;
-    color: #007bff;
+    color: #00c3ff;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
  }
  
  #main-nav ul li {
@@ -110,10 +120,10 @@ img {
  }
  
  .book-now {
-    background-color: #008cff;
+    background-color: #678dad;
     color: #fff;
-    font-size: 16px;
-    
+    font-size: 90px;
+    font-family: 'lilita one';
     display: flex;
     align-items: center;
     transition: all 0.3s ease-in-out;
@@ -140,8 +150,10 @@ img {
  .book-now {
     background-color: #00c3ff;
     color: #ffffff;
-    width: 140px;
-    font-size: 24px;
+    margin-top: 29px;
+    width: 180px;
+    height: 90px;
+    font-size: 27px;
     border-radius: 60px;
     display: flex;
     justify-content: center;
@@ -150,7 +162,7 @@ img {
  }
  
  .book-now:hover {
-    box-shadow: inset 0px -120px 0px rgb(0, 162, 207);
+    box-shadow: inset 0px -120px 0px #00afe5;
  }
  
  
@@ -166,14 +178,14 @@ img {
        position: sticky;
        top: 0px;
        background-color: #fff;
-       border-bottom: solid 1px #001aff;
+       border-bottom: solid 1px #0083ab;
        z-index: 1;
     }
  
     #main-nav {
        margin-top: 4%;
        margin-bottom: 4%;
-       border-left: 2px solid #00b7ff;
+       border-left: 2px solid #00c3ff;
        padding-left: 30%;
     }
  
@@ -206,6 +218,7 @@ img {
     #logo {
        margin-top: 32px;
        order: -1; 
+       margin-left: 75px;
     }
  
     #book-now-header {
@@ -213,14 +226,6 @@ img {
        margin-right: -16px;
     }
  
-    #pic1 {
-      padding: 20px;
-   }
-
-   #pic2 {
-      padding: 20px;
-   }
-
 
    }
 
@@ -232,20 +237,27 @@ justify-content: center;
 }
 
 #pic1 {
-   padding: 20px;
-   background-color:#00c3ff ;
-   font-size: 20px;
-   color: white;
-   border-radius: 4px;
+   width: 100vw; 
+   margin-left: calc(-50vw + 50%);
+
+ background: url(../images/burp-hero3.jpg) no-repeat;
+ background-size: contain;
+ aspect-ratio: 2.125; 
 }
 
-#pic2 {
-   padding: 20px;
-   background-color:#00c3ff ;
-   font-size: 20px;
-   color: white;
-   border-radius: 4px;
+#pic1 p {
+   margin-top: 200px;
 }
+
+#pic1 button {
+   margin-top: 270px;
+   height: 40px;
+   background-color: white;
+   color: #00c3ff;
+   font-family: 'lilita one';
+   border-radius: 30px;
+}
+
 
 #grape-lab {
    margin-bottom: 70px;
@@ -292,6 +304,7 @@ body {
    justify-content: center;
    display: flex;
    color: white;
+   font-family: 'lilita one';
 }
 
 #about div {
@@ -309,6 +322,7 @@ body {
    font-size: 40px;
    justify-content: center;
    display: flex;
+   font-family: 'lilita one';
 }
 
 #about div p {
