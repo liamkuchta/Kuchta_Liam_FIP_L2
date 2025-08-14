@@ -34,7 +34,9 @@
         <img src="images/burp1.svg" alt="Couples Resort Logo">
       </div>
       <div id="book-now-header" class="book-now col-span-2">
-        <p>GET BURPLE</p>
+        <a href="getburple.html">
+          <button>GET BURPLE</button>
+        </a>
       </div>
     </header>
   </div>
@@ -44,21 +46,29 @@
 
   <main>
     <br><br><br>
-    <section id="order" class="grid-con">
+    <div id="contact-title">
+      <h3>GET IN TOUCH WITH BURPLE</h3>
+    </div>
+    <section id="order">
       <h2 class="hidden">Order</h2>
-      <div>
-        <h3>GET IN TOUCH WITH BURPLE</h3>
+
+
+      <div id="contactform">
         <form action="#" method="POST">
           <label for="name_input">
-            Flavour:
-          </label>
-          <input type="text" id="print_input" name="name" placeholder="name of flavour" required> <br>
-          <label for="email_input">Quantity</label>
-          <input type="email" id="quantity_input" name="email" placeholder="enter quantity" required> <br>
-          <br>
 
-          <button type="submit">Checkout</button>
+          </label>
+          <input type="text" id="name_input" name="name" placeholder="Name" required> <br>
+          <label for="email_input">
+
+          </label>
+          <input type="email" id="email_input" name="email" placeholder="Email" required> <br>
+          <br>
+          <input type="email" id="message_input" name="email" placeholder="Message" required>
+
+          <button id="send-btn" type="submit">Send</button>
         </form>
+
       </div>
     </section>
     <br><br><br><br><br><br>
@@ -68,22 +78,33 @@
   <br><br><br>
 
 
-  <section>
-    <h1 class="hidden"> Contact</h1>
-    <h2 class="hidden"> CONTACT </h2>
-    <div>
-
-      <h1>Socials</h1>
-      <div class="socials">
-        <ul>
-          <li><a href="https://instagram.com/art_liku" target="_blank">Instagram</a></li>
 
 
-        </ul>
+  <footer id="thefooter">
+
+    <section class="grid-con" id="footer-flex">
+      <h2 class="hidden">footer</h2>
+
+      <div id="commission" class=" l-col-start-1 l-col-end-6">
+        <p>
+          BURPLE
+        </p>
       </div>
-    </div>
-  </section>
-  <footer>
+
+      <div class="l-col-start-7 l-col-end-13 m-col-start-4" id="footer-nav">
+        <nav>
+
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Flavours</a></li>
+          </ul>
+
+        </nav>
+      </div>
+
+    </section>
     <p>&copy; 2025 Burple inc.</p>
   </footer>
 </body>
