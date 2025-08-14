@@ -278,6 +278,10 @@ justify-content: center;
    height: 700px;
 }
 
+#featured-flav div h3 {
+   color: #a4eaff;
+}
+
 #featured-flav div {
    max-width: 460px;
    margin: 20px;
