@@ -3,6 +3,10 @@
    display: none;
 }
 
+body {
+   background-color: rgb(172, 233, 255);
+}
+
 img {
    width: 100%;
    display: block;
@@ -243,7 +247,7 @@ justify-content: center;
 #pic1 {
    width: 100vw; 
    position: relative;
- background: url(../images/burp-hero3.jpg) no-repeat;
+ background: url(../images/Comp\ 1\ \(0-00-hgjh03-01\)_1.png) no-repeat;
  background-size: contain;
  aspect-ratio: 2.125; 
 }
@@ -267,7 +271,7 @@ justify-content: center;
 }
 
 #newflavours {
-   background-color:  rgb(172, 233, 255);;
+   background-color:  rgb(172, 233, 255);
    margin-bottom: 80px;
 }
 
@@ -309,7 +313,7 @@ justify-content: center;
 }
 
 #newflav1 img {
-   width: 90px;
+   width: 75px;
    position: absolute;
   top: 0;
   right: 0;
@@ -328,7 +332,7 @@ justify-content: center;
   }
 
   #newflav2 img {
-   width: 90px;
+   width: 75px;
    position: absolute;
   top: 0;
   right: 0;
@@ -347,7 +351,7 @@ justify-content: center;
   }
 
   #newflav3 img {
-   width: 90px;
+   width: 75px;
    position: absolute;
   top: 0;
   right: 0;
@@ -381,24 +385,17 @@ justify-content: center;
    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
-
-
 /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 
-#home-link a {
-   text-decoration: none;
-   color:rgb(0, 160, 252);
-   font-size: 50px;
-}
+.about-main {
+   background: url(../images/ice1920.png) no-repeat;
+   background-size: cover;
+   background-position: center;
 
-body {
-   background-color: rgb(172, 233, 255);
-   font-family: helvetica;
-}
+   padding-top: 400px; /* pushes the content down, but background stays in place */
+   padding-bottom: 400px; 
+ }
 
-#about{
-   margin-bottom: 200px;
-}
 
 #about p {
    justify-content: center;
@@ -414,7 +411,7 @@ body {
    padding-right: 30px;
    padding-bottom: 30px;
    border-radius: 10px;
-   margin-top: 200px;
+ 
 }
 
 #about div h2 {
@@ -436,12 +433,18 @@ body {
    justify-content: center;
 }
 
+
+#home-link a {
+   text-decoration: none;
+   color:rgb(0, 160, 252);
+   font-size: 50px;
+}
+
 /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
 
-main.contact-main {
+.contact-main {
    background: url(../images/ice1920.png) no-repeat;
    background-size: cover;
-   
  }
  
 
